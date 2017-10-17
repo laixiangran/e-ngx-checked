@@ -2,12 +2,12 @@
  * Created by laixiangran on 2016/11/23.
  * homepage：http://www.laixiangran.cn.
  */
-import { Directive, ElementRef, Input, OnInit, Renderer2 } from '@angular/core';
+import { Directive, ElementRef, Input, Renderer2 } from '@angular/core';
 
 @Directive({
 	selector: '[essence-ng2-checked]'
 })
-export class EssenceNg2CheckedDirective implements OnInit {
+export class EssenceNg2CheckedDirective {
 
 	/**
 	 * 0：未选中
