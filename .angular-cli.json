@@ -12,7 +12,7 @@
 			"polyfills": "polyfills.ts",
 			"tsconfig": "tsconfig.json",
 			"styles": [
-				"./index.css"
+				"./styles.scss"
 			],
 			"scripts": [],
 			"environmentSource": "environments/environment.ts",

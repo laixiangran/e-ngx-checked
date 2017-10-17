@@ -1,6 +1,6 @@
 {
 	"name": "essence-ng2-checked",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "essence-ng2-checked is an Angular directive that change checkbox status.",
 	"keywords": [
 		"angular2",

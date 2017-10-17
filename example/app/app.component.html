@@ -1,11 +1,14 @@
 <div class="app_main">
 	<p>
-		<input [essence-ng2-checked]="0" type="checkbox">未选中
+		<input [essence-ng2-checked]="checkboxValue" type="checkbox">
+		<span [ngSwitch]="checkboxValue">
+			<span *ngSwitchCase="0">未选中</span>
+			<span *ngSwitchCase="1">待确认</span>
+			<span *ngSwitchCase="2">已选中</span>
+		</span>
 	</p>
 	<p>
-		<input [essence-ng2-checked]="1" type="checkbox">待确定
+		checkboxValue: {{checkboxValue}}
 	</p>
-	<p>
-		<input [essence-ng2-checked]="2" type="checkbox">已选中
-	</p>
+	<button (click)="changeValue()">修改值</button>
 </div>
