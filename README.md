@@ -35,6 +35,10 @@ essence-ng2-checked is an Angular directive that change checkbox status.
 
 ## API
 
+### exportAs
+
+- `eNgChecked` - 导出的指令变量，可在模板获取指令类并调用（`#eNgChecked="eNgChecked"`）。
+
 ### Inputs
 
 - `essence-ng2-checked`（`number`） - 复选框的状态值，可取：0（未选中），1（待确定），2（已选中）

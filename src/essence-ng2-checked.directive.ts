@@ -5,7 +5,8 @@
 import { Directive, ElementRef, Input, Renderer2 } from '@angular/core';
 
 @Directive({
-	selector: '[essence-ng2-checked]'
+	selector: '[essence-ng2-checked]',
+	exportAs: 'eNgChecked'
 })
 export class EssenceNg2CheckedDirective {
 
