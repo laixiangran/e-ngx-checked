@@ -1,15 +1,15 @@
 {
-	"name": "essence-ng2-checked",
-	"version": "1.0.2",
-	"description": "essence-ng2-checked is an Angular directive that change checkbox status.",
+	"name": "e-ngx-checked",
+	"version": "1.2.0",
+	"description": "基于Angular的切换复选框状态组件",
 	"keywords": [
-		"angular2",
+		"angular",
 		"laixiangran"
 	],
-	"homepage": "https://github.com/laixiangran/essence-ng2-checked#readme",
+	"homepage": "https://github.com/laixiangran/e-ngx-checked#readme",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/laixiangran/essence-ng2-checked.git"
+		"url": "https://github.com/laixiangran/e-ngx-checked.git"
 	},
 	"author": {
 		"name": "赖祥燃",
@@ -19,7 +19,7 @@
 	},
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/laixiangran/essence-ng2-checked/issues"
+		"url": "https://github.com/laixiangran/e-ngx-checked/issues"
 	},
 	"scripts": {
 		"release": "ngc && npm publish",

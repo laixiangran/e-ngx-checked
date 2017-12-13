@@ -5,18 +5,18 @@
 import { Directive, ElementRef, Input, Renderer2 } from '@angular/core';
 
 @Directive({
-	selector: '[essence-ng2-checked]',
-	exportAs: 'eNgChecked'
+	selector: '[eNgxChecked]',
+	exportAs: 'eNgxChecked'
 })
-export class EssenceNg2CheckedDirective {
+export class ENgxCheckedDirective {
 
 	/**
 	 * 0：未选中
 	 * 1：待确定
 	 * 2：选中
 	 */
-	@Input('essence-ng2-checked')
-	set essenceChecked(value: any) {
+	@Input('eNgxChecked')
+	set eNgxChecked(value: any) {
 		this.renderer.setProperty(this.el.nativeElement, 'indeterminate', false);
 		if (value === 2) {
 			this.renderer.setProperty(this.el.nativeElement, 'checked', true);

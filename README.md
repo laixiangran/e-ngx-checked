@@ -1,22 +1,22 @@
-# essence-ng2-checked
+# e-ngx-checked
 
-essence-ng2-checked is an Angular directive that change checkbox status.
+基于Angular的切换复选框状态组件。
 
 ## Usage
 
 1. Install
 
 	```shell
-	npm install --save essence-ng2-checked@latest
+	npm install --save e-ngx-checked@latest
 	```
 
-3. Add the EssenceNg2CheckedModule
+3. Add the ENgxCheckedModule
 
 	```typescript
-	import {EssenceNg2CheckedModule} from "essence-ng2-checked";
+	import {ENgxCheckedModule} from "e-ngx-checked";
 	@NgModule({
 	    imports: [
-	        EssenceNg2CheckedModule
+	        ENgxCheckedModule
 	    ]
 	})
 	```
@@ -24,7 +24,7 @@ essence-ng2-checked is an Angular directive that change checkbox status.
 4. Use in Template
 
 	```html
-	<input [essence-ng2-checked]="checked" type="checkbox">
+	<input [eNgxChecked]="checked" type="checkbox">
 	```
 
 5. Use in Component
@@ -37,11 +37,11 @@ essence-ng2-checked is an Angular directive that change checkbox status.
 
 ### exportAs
 
-- `eNgChecked` - 导出的指令变量，可在模板获取指令类并调用（`#eNgChecked="eNgChecked"`）。
+- `eNgxChecked` - 导出的指令变量，可在模板获取指令类并调用（`#eNgxChecked="eNgxChecked"`）。
 
 ### Inputs
 
-- `essence-ng2-checked`（`number`） - 复选框的状态值，可取：0（未选中），1（待确定），2（已选中）
+- `eNgxChecked`（`number`） - 复选框的状态值，可取：0（未选中），1（待确定），2（已选中）
 
 ## Develop
 
